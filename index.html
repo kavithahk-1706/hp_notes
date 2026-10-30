@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Human Skills — Exam Prep</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .tag {
+      display: inline-block; font-size: 0.74rem; font-weight: 600;
+      padding: 2px 8px; border-radius: 20px; margin-right: 6px; margin-bottom: 4px;
+      letter-spacing: 0.03em;
+    }
+    .tag-a { background: color-mix(in srgb, var(--accent) 18%, transparent); color: var(--accent); }
+    .tag-s { background: color-mix(in srgb, var(--success) 18%, transparent); color: var(--success); }
+    .tag-w { background: color-mix(in srgb, var(--warning) 18%, transparent); color: var(--warning); }
+    .tag-d { background: color-mix(in srgb, var(--danger) 18%, transparent); color: var(--danger); }
+    .callout {
+      border-left: 3px solid var(--accent); border-radius: 0 var(--radius) var(--radius) 0;
+      background: var(--surface2); padding: 12px 16px; margin: 14px 0;
+      font-size: 0.9rem; line-height: 1.75;
+    }
+    .callout.green { border-color: var(--success); }
+    .callout.yellow { border-color: var(--warning); }
+    .callout.red { border-color: var(--danger); }
+    table {
+      width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 0.87rem;
+    }
+    th {
+      background: var(--surface2); color: var(--accent);
+      padding: 9px 12px; text-align: left; font-weight: 600;
+      border-bottom: 1px solid var(--border);
+    }
+    td {
+      padding: 8px 12px; border-bottom: 1px solid var(--border);
+      vertical-align: top; color: var(--text); line-height: 1.65;
+    }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: var(--surface2); }
+  </style>
+</head>
+<body>
+<div class="page-wrapper">
+  <header class="site-header">
+    <h1>Human Skills — Exam Prep</h1>
+    <p>12 Important Questions · Units 3, 4 &amp; 5</p>
+  </header>
+
+  <div class="section-nav">
+    <button class="section-btn active" onclick="showSection('s3', this)">Section I — Unit 3</button>
+    <button class="section-btn" onclick="showSection('s4', this)">Section II — Unit 4</button>
+    <button class="section-btn" onclick="showSection('s5', this)">Section III — Unit 5</button>
+  </div>
+
+  <!-- ═══════ UNIT 3 ═══════ -->
+  <div class="section-panel active" id="s3">
+    <div class="tabs" role="tablist">
+      <button class="tab-btn active" onclick="showTab('s3',0)">Q1 · Teamwork &amp; Leadership</button>
+      <button class="tab-btn"        onclick="showTab('s3',1)">Q2 · Communication Plan</button>
+    </div>
+
+    <!-- Q1 -->
+    <div class="tab-content active" id="s3-tab-0">
+      <div class="question-block">
+        <h2 class="q-title">Q1. Analyze the role of teamwork and leadership in completing a group project successfully.</h2>
+        <div class="answer-body">
+
+          <p>A group project succeeds or fails on two things above everything else: whether people can work together without constant friction, and whether someone is steering the ship. Teamwork and leadership aren't separate forces — they feed each other. Good leadership creates the conditions for good teamwork, and a team that works well makes leadership easier.</p>
+
+          <h3>Role of Teamwork</h3>
+          <p>Teamwork is what happens when a group of individuals with different strengths choose to coordinate rather than compete. In a project context, its value comes from several things. First, <strong>division of labour</strong> — complex projects have multiple workstreams that no single person can handle alone. A team distributes these based on individual strengths, so the technical person handles the code, the communicator handles presentations, and so on. The total output is better than any individual could produce.</p>
+          <p>Second, teamwork enables <strong>peer review and error correction</strong>. When multiple people review each other's work, mistakes get caught early. A lone worker has no one to challenge their assumptions; a team has built-in quality control. Third, collaborative work builds <strong>shared ownership</strong> — when everyone has contributed, everyone is invested in the outcome and motivated to see it succeed rather than just their own piece.</p>
+          <p>The foundation of effective teamwork is trust, open communication, and clearly defined roles. Without role clarity, tasks get duplicated or dropped entirely. Without trust, people withhold information and protect their individual credit at the cost of the team's output.</p>
+
+          <h3>Role of Leadership</h3>
+          <p>Leadership in a group project is the function of setting direction, maintaining momentum, and resolving the conflicts that teamwork inevitably produces. A leader's core responsibilities in a project context are:</p>
+          <p><strong>Goal setting and planning</strong> — breaking the project into tasks, assigning them to the right people, and setting realistic timelines. Without this, teams drift and miss deadlines.</p>
+          <p><strong>Motivation and morale</strong> — projects stall when energy drops. A leader reads the team's state and intervenes — redistributing overloaded work, acknowledging contributions, reconnecting the team to the purpose of what they're building.</p>
+          <p><strong>Decision-making under uncertainty</strong> — projects constantly encounter ambiguous choices. Teams often get stuck in indecision. The leader's role is to gather the available information, consult relevant team members, and make a call so work can continue.</p>
+          <p><strong>Conflict resolution</strong> — interpersonal friction is unavoidable when people work closely under pressure. A good leader addresses disagreements directly and early, before they fester into resentment that derails the project.</p>
+
+          <h3>How They Interact</h3>
+          <p>Leadership without teamwork is just authority with no execution capability. Teamwork without leadership is energy without direction — people working hard but not necessarily toward the same goal. The two are interdependent: the leader creates structure and vision, the team provides the skills and effort that actually produce the output.</p>
+
+          <div class="callout green">
+            <strong>Example:</strong> In a software capstone project, the team lead sets sprint goals and assigns modules. Developers collaborate on integration and review each other's code. The lead resolves the argument about which database to use. The result is a complete, working product — neither the leader alone nor the team alone could have built it.
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Q2 -->
+    <div class="tab-content" id="s3-tab-1">
+      <div class="question-block">
+        <h2 class="q-title">Q2. Design an effective communication and leadership plan for managing a team project.</h2>
+        <div class="answer-body">
+
+          <p>A communication and leadership plan is a document that answers three questions before the project starts: how will we share information, who makes which decisions, and how will we handle it when things go wrong. Without this plan, teams rediscover the same coordination problems on every project. With it, the friction is removed before it occurs.</p>
+
+          <h3>Part 1: Leadership Structure</h3>
+          <p>Define roles clearly at the outset. A typical structure for a team project involves a <strong>project lead</strong> who owns the overall outcome and is accountable for deadlines, a set of <strong>domain leads</strong> who own specific workstreams (e.g., research, design, implementation, presentation), and <strong>contributors</strong> who execute within those workstreams.</p>
+          <p>The leadership style should match the team's maturity and the project's nature. For a team new to collaboration, a more directive style (clear instructions, frequent check-ins) works better. For experienced teams working on creative problems, a more democratic style (shared decision-making, leader as facilitator) produces better results and higher ownership.</p>
+
+          <h3>Part 2: Communication Plan</h3>
+          <p>Effective communication in a project requires intentional structure across four dimensions:</p>
+
+          <table>
+            <tr><th>Channel</th><th>Purpose</th><th>Frequency</th></tr>
+            <tr><td>Team standup / check-in</td><td>Quick progress updates, blockers surfaced</td><td>Daily or every 2 days</td></tr>
+            <tr><td>Full team meeting</td><td>Decisions, planning, retrospectives</td><td>Weekly</td></tr>
+            <tr><td>Async messaging (WhatsApp/Slack)</td><td>Quick questions, file sharing</td><td>As needed</td></tr>
+            <tr><td>Shared document / project board</td><td>Task tracking, status, deliverables</td><td>Continuously updated</td></tr>
+          </table>
+
+          <p>Two communication norms matter most. First, <strong>transparency</strong> — team members should surface problems as soon as they arise, not hide them until the deadline. The plan should explicitly say this is expected and safe. Second, <strong>documentation</strong> — decisions made verbally in meetings should be written down so the whole team is aligned and there's no "I thought we decided X" confusion later.</p>
+
+          <h3>Part 3: Conflict and Risk Management</h3>
+          <p>The plan should define upfront how disagreements are resolved. A simple rule like "any unresolved disagreement escalates to the project lead within 24 hours" removes the ambiguity about who decides when people can't agree.</p>
+          <p>Risk management means identifying the most likely failure points before they happen — a team member falling sick, a dependency taking longer than expected, scope expanding beyond what's feasible — and deciding in advance who does what if those risks materialize.</p>
+
+          <div class="callout">
+            <strong>Key principle:</strong> A communication plan isn't bureaucracy — it's the team agreeing in advance on how to function. The five minutes spent defining it saves hours of confusion mid-project.
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /s3 -->
+
+  <!-- ═══════ UNIT 4 ═══════ -->
+  <div class="section-panel" id="s4">
+    <div class="tabs" role="tablist">
+      <button class="tab-btn active" onclick="showTab('s4',0)">Q3 · Stress Management</button>
+      <button class="tab-btn"        onclick="showTab('s4',1)">Q4 · Resilience &amp; Positive Thinking</button>
+      <button class="tab-btn"        onclick="showTab('s4',2)">Q5 · Healthy Daily Routine</button>
+      <button class="tab-btn"        onclick="showTab('s4',3)">Q6 · Mental Health Plan</button>
+      <button class="tab-btn"        onclick="showTab('s4',4)">Q7 · Anxiety, Depression &amp; Burnout</button>
+    </div>
+
+    <!-- Q3 -->
+    <div class="tab-content active" id="s4-tab-0">
+      <div class="question-block">
+        <h2 class="q-title">Q3. Explain different stress management techniques with examples.</h2>
+        <div class="answer-body">
+
+          <p>Stress is the body's response to demands that exceed its perceived capacity to cope. A moderate amount of stress is normal and even useful — it sharpens focus and drives performance. Chronic, unmanaged stress, however, damages both mental and physical health. Stress management is the practice of recognising stress and using deliberate techniques to reduce or redirect it.</p>
+
+          <h3>1. Time Management and Prioritisation</h3>
+          <p>A significant portion of day-to-day stress comes not from the work itself but from the feeling that there is too much to do and not enough time. Effective time management — breaking large tasks into smaller steps, using priority matrices like the Eisenhower Box (urgent vs important), and setting realistic daily goals — reduces this overwhelm by making the workload feel navigable.</p>
+          <div class="callout green"><strong>Example:</strong> An engineering student stressed about exams creates a two-week study schedule, assigns specific topics to specific days, and sticks to it. The stress comes from uncertainty about whether there's enough time — the schedule removes that uncertainty.</div>
+
+          <h3>2. Physical Exercise</h3>
+          <p>Exercise is one of the most evidence-backed stress relievers available. Physical activity triggers the release of endorphins — neurochemicals that improve mood — and reduces levels of cortisol and adrenaline, the body's stress hormones. Even a 20-minute walk is measurably effective. The effect is both immediate (mood lifts within the session) and long-term (regular exercise builds stress resilience over time).</p>
+          <div class="callout green"><strong>Example:</strong> A developer who takes a 30-minute run after a frustrating day at work consistently reports feeling calmer and more capable of solving problems afterward.</div>
+
+          <h3>3. Mindfulness and Deep Breathing</h3>
+          <p>Mindfulness is the practice of bringing deliberate, non-judgmental attention to the present moment. When stressed, the mind tends to catastrophise about future consequences or ruminate on past mistakes. Mindfulness interrupts this pattern by grounding attention in what is actually happening right now. A simple technique is the 4-7-8 breathing method: inhale for 4 counts, hold for 7, exhale for 8. This activates the parasympathetic nervous system, directly counteracting the physiological stress response.</p>
+          <div class="callout green"><strong>Example:</strong> Before a presentation, taking five slow deep breaths reduces heart rate and clears the mental clutter that causes blanking under pressure.</div>
+
+          <h3>4. Social Support</h3>
+          <p>Talking to someone you trust — a friend, mentor, or family member — about what's stressing you serves two functions. First, verbalising a problem often reduces its perceived magnitude; the thing that felt catastrophic in your head becomes more manageable when spoken aloud. Second, other people often offer perspectives or practical help that you couldn't access alone. Social connection is a fundamental buffer against chronic stress.</p>
+
+          <h3>5. Cognitive Reframing</h3>
+          <p>Cognitive reframing is the technique of consciously changing how you interpret a stressful situation. Stress often comes not from the event itself but from how you're thinking about it. A failed test can be framed as a disaster or as information about what to study harder. A difficult project can be seen as an overwhelming burden or as a growth opportunity. Deliberately choosing the more productive frame doesn't deny the difficulty — it changes your relationship to it.</p>
+
+          <div class="callout yellow"><strong>Key insight:</strong> Different techniques work for different people and different types of stress. The goal is to build a personal toolkit — knowing which technique to reach for in which situation, rather than relying on a single approach.</div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Q4 -->
+    <div class="tab-content" id="s4-tab-1">
+      <div class="question-block">
+        <h2 class="q-title">Q4. Explain the importance of resilience and positive thinking in mental well-being.</h2>
+        <div class="answer-body">
+
+          <p>Mental well-being is not the absence of difficulty — it is the capacity to navigate difficulty without being permanently derailed by it. Two psychological qualities that determine this capacity more than almost anything else are resilience and positive thinking. They are distinct but deeply related: resilience is about recovering, positive thinking is about the lens through which you interpret what you're recovering from.</p>
+
+          <h3>Resilience</h3>
+          <p>Resilience is the ability to bounce back from adversity, adapt to change, and keep functioning under pressure. It is not toughness in the sense of not feeling pain — resilient people feel distress just as much as anyone. The difference is that they don't stay stuck in it. They process it, learn from it, and move forward.</p>
+          <p>Resilience matters for mental well-being because life is guaranteed to include setbacks — failed relationships, professional rejections, health scares, loss. Without resilience, each of these events can feel permanently devastating. With it, they become part of a larger narrative of growth. Research by psychologist Martin Seligman found that resilience is a learnable skill, not a fixed trait — it can be built deliberately through practice.</p>
+          <p>The key components of resilience are: <strong>self-awareness</strong> (understanding your emotional reactions), <strong>problem-solving orientation</strong> (moving toward solutions rather than ruminating on problems), <strong>social connection</strong> (drawing on relationships for support), and <strong>meaning-making</strong> (finding a sense of purpose that gives suffering context).</p>
+
+          <div class="callout green"><strong>Example:</strong> A student who fails an important exam can either conclude they are fundamentally incompetent and give up, or analyse what went wrong, adjust their study approach, and try again. The second response is resilience — same event, different trajectory.</div>
+
+          <h3>Positive Thinking</h3>
+          <p>Positive thinking is often misunderstood as naive optimism — pretending things are fine when they aren't. What it actually means is <strong>explanatory style</strong>: the habitual way you explain why bad things happen. Seligman identified three dimensions of explanatory style: whether you see setbacks as permanent or temporary, as pervasive (affecting all areas of life) or specific, and as internal (your fault entirely) or external (partly circumstantial).</p>
+          <p>People with a positive explanatory style see bad events as temporary, specific, and not entirely their fault. People with a negative style see them as permanent, pervasive, and entirely self-caused. The positive style is associated with better mental health, more persistence, better physical health outcomes, and even longer life expectancy in longitudinal studies.</p>
+          <p>Positive thinking improves mental well-being not by denying problems but by maintaining the belief that problems can be addressed — which is what motivates the action needed to actually address them. Hopelessness, by contrast, leads to passivity: if you believe nothing will help, you don't try, and the situation doesn't improve, which confirms the hopelessness. It's a self-reinforcing loop in both directions.</p>
+
+          <div class="callout"><strong>Together:</strong> Resilience and positive thinking are mutually reinforcing. A positive explanatory style makes resilience easier — if you believe setbacks are temporary, you don't give up. And resilient experiences (surviving a hard thing) build positive belief in your own capacity. Building one tends to build the other.</div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Q5 -->
+    <div class="tab-content" id="s4-tab-2">
+      <div class="question-block">
+        <h2 class="q-title">Q5. Develop a daily routine that promotes a healthy lifestyle and work-life balance.</h2>
+        <div class="answer-body">
+
+          <p>A healthy daily routine is not about rigid discipline for its own sake — it's about removing the need to make decisions about basic self-care every day. When sleep, exercise, meals, and rest are built into a routine, they stop competing with everything else for attention. The goal is a structure that sustains performance over the long term without burning out.</p>
+
+          <h3>Core Principles</h3>
+          <p>Before designing a routine, it helps to understand what it's trying to achieve. A routine that promotes health and balance should protect sleep (the single highest-leverage health intervention available), create time for focused work and genuine rest (not just scrolling), and include some form of physical movement and social connection. It should also be <strong>realistic</strong> — an aspirational routine you abandon in a week is worse than a modest one you actually follow.</p>
+
+          <h3>Sample Daily Routine for a Student</h3>
+
+          <table>
+            <tr><th>Time</th><th>Activity</th><th>Why</th></tr>
+            <tr><td>6:30 AM</td><td>Wake up, no phone for first 15 min</td><td>Avoid starting the day in reactive mode</td></tr>
+            <tr><td>6:45 AM</td><td>Light exercise or walk (20–30 min)</td><td>Boosts mood, alertness, and energy for the day</td></tr>
+            <tr><td>7:15 AM</td><td>Breakfast — proper meal, not skipped</td><td>Blood sugar stability improves focus and mood</td></tr>
+            <tr><td>8:00 AM</td><td>Deep work block (study / projects)</td><td>Morning cognitive energy is highest — use it for hard things</td></tr>
+            <tr><td>12:30 PM</td><td>Lunch + genuine break (not studying)</td><td>Rest prevents afternoon burnout</td></tr>
+            <tr><td>2:00 PM</td><td>Second work block</td><td>Lighter tasks, review, group work</td></tr>
+            <tr><td>5:00 PM</td><td>Creative or leisure time (music, walking, hobby)</td><td>Non-academic engagement restores mental energy</td></tr>
+            <tr><td>7:00 PM</td><td>Dinner + family / social time</td><td>Social connection is a stress buffer</td></tr>
+            <tr><td>9:00 PM</td><td>Wind-down: light reading, no screens</td><td>Blue light disrupts melatonin; transition the nervous system</td></tr>
+            <tr><td>10:30 PM</td><td>Sleep</td><td>7–8 hours is non-negotiable for cognitive function</td></tr>
+          </table>
+
+          <h3>Work-Life Balance</h3>
+          <p>Work-life balance doesn't mean equal hours — it means neither work nor personal life is being systematically sacrificed for the other. In practice this requires <strong>boundaries</strong>: a defined end time for academic work, designated rest periods that are actually restful (not guilt-ridden), and the discipline to protect personal time from academic or professional creep.</p>
+          <p>The most common failure mode for students is treating rest as a reward that must be earned rather than a biological requirement. Rest is not a luxury — sleep deprivation measurably impairs memory consolidation (directly harming study effectiveness), emotional regulation, and decision-making. A routine that includes rest is more productive than one that doesn't, not less.</p>
+
+          <div class="callout yellow"><strong>Key principle:</strong> Consistency matters more than perfection. A routine followed 80% of the time is vastly better than a perfect routine followed 30% of the time. Build in flexibility for the days things don't go to plan.</div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Q6 -->
+    <div class="tab-content" id="s4-tab-3">
+      <div class="question-block">
+        <h2 class="q-title">Q6. Design a comprehensive mental health plan incorporating stress management, resilience, mindfulness, and work-life balance.</h2>
+        <div class="answer-body">
+
+          <p>A mental health plan is a personal system for maintaining psychological well-being proactively — not just responding to crises when they happen. It integrates multiple practices into a coherent whole so that stress management, resilience-building, mindfulness, and balance reinforce each other rather than competing for time and attention.</p>
+
+          <h3>Component 1: Stress Management Practices</h3>
+          <p>Identify your primary stressors — academic pressure, interpersonal conflict, uncertainty about the future — and match specific techniques to each. Time-related stress responds well to planning and prioritization. Interpersonal stress responds well to communication and boundary-setting. Existential or future-related stress responds well to mindfulness (bringing attention back to the present) and journaling (externalizing and examining the worry).</p>
+          <p>Build in regular <strong>stress audits</strong> — once a week, briefly review what caused the most stress and whether the response was effective. Over time this develops self-awareness about your personal stress patterns.</p>
+
+          <h3>Component 2: Resilience Building</h3>
+          <p>Resilience is built through deliberately accumulating evidence that you can handle difficulty. This means taking on challenges slightly outside your comfort zone, reflecting on how you managed past hard periods, and maintaining a growth mindset — the belief that your capabilities expand with effort and experience. A practical tool is a <strong>resilience journal</strong>: brief weekly entries noting one hard thing you navigated and what it showed you about yourself.</p>
+          <p>Social resilience — knowing you have people to turn to — is equally important. Proactively maintaining two or three close relationships you can be honest with is a resilience investment, not a luxury.</p>
+
+          <h3>Component 3: Mindfulness Practice</h3>
+          <p>Mindfulness doesn't require meditation cushions or apps. At its core it is the practice of noticing — noticing what you're feeling, what you're thinking, and what's actually happening in the present moment without immediately reacting to it. A minimal daily practice might be five minutes of focused breathing in the morning, or deliberately eating one meal without a screen and noticing the experience of eating.</p>
+          <p>The long-term benefit of mindfulness for mental health is reduced reactivity — the gap between stimulus and response widens, giving you more choice about how to act rather than being driven by automatic emotional reactions.</p>
+
+          <h3>Component 4: Work-Life Balance Structures</h3>
+          <p>Define clear boundaries and protect them. A specific end time for academic work each day. At least one full day per week that is not dominated by productivity. Social activities that are genuinely restful (not networking or performance). Physical rest — actual sleep, not just lying in bed anxious.</p>
+
+          <div class="callout">
+            <strong>Integration:</strong> The plan works as a system. Mindfulness reduces stress reactivity. Lower reactivity makes resilience responses more accessible. Resilience enables you to maintain balance even when things get hard. Balance prevents the chronic overload that depletes the mental resources needed for mindfulness. Each component supports the others.
+          </div>
+
+          <h3>Review and Adjustment</h3>
+          <p>A mental health plan isn't static. Review it monthly — what's working, what isn't, what's changed in your life that requires adjusting the plan. The goal is a living document that evolves with your circumstances, not a rigid prescription.</p>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Q7 -->
+    <div class="tab-content" id="s4-tab-4">
+      <div class="question-block">
+        <h2 class="q-title">Q7. Differentiate between anxiety, depression, and burnout.</h2>
+        <div class="answer-body">
+
+          <p>Anxiety, depression, and burnout are three of the most common psychological difficulties people face, and they are frequently confused — partly because they overlap in symptoms, and partly because people use all three words loosely in everyday language. Understanding the distinctions matters because they have different causes, different features, and respond to different interventions.</p>
+
+          <table>
+            <tr>
+              <th>Feature</th>
+              <th><span class="tag tag-w">Anxiety</span></th>
+              <th><span class="tag tag-d">Depression</span></th>
+              <th><span class="tag tag-a">Burnout</span></th>
+            </tr>
+            <tr>
+              <td><strong>Core feeling</strong></td>
+              <td>Fear, worry, dread about the future</td>
+              <td>Persistent sadness, emptiness, hopelessness</td>
+              <td>Exhaustion, cynicism, detachment</td>
+            </tr>
+            <tr>
+              <td><strong>Energy level</strong></td>
+              <td>Often high but chaotic (restlessness, racing thoughts)</td>
+              <td>Low — fatigue, loss of motivation even for enjoyable things</td>
+              <td>Depleted — specifically related to work/role</td>
+            </tr>
+            <tr>
+              <td><strong>Primary cause</strong></td>
+              <td>Perceived threat or uncertainty, can be physiological</td>
+              <td>Complex — neurobiological, environmental, often following loss or prolonged stress</td>
+              <td>Chronic workplace/academic overload without recovery</td>
+            </tr>
+            <tr>
+              <td><strong>Scope</strong></td>
+              <td>Can be generalised or specific (social anxiety, health anxiety)</td>
+              <td>Pervades all areas of life — relationships, work, self-image</td>
+              <td>Usually domain-specific at first (work/study), can generalise</td>
+            </tr>
+            <tr>
+              <td><strong>Key symptom</strong></td>
+              <td>"What if something goes wrong?" — hypervigilance</td>
+              <td>"Nothing matters / nothing will get better" — anhedonia (loss of pleasure)</td>
+              <td>"I can't do this anymore" — emotional and physical depletion</td>
+            </tr>
+            <tr>
+              <td><strong>Intervention</strong></td>
+              <td>CBT, relaxation techniques, sometimes medication</td>
+              <td>Therapy (CBT, interpersonal), medication, lifestyle — requires professional support</td>
+              <td>Rest, reduced workload, boundary-setting, addressing the source</td>
+            </tr>
+          </table>
+
+          <h3>Key Distinctions in Plain Language</h3>
+          <p><strong>Anxiety vs Depression:</strong> Anxiety is forward-facing — it is about something bad that might happen. Depression is often more diffuse and present-focused — the feeling that nothing is good now and nothing will be good. An anxious person wants things to be okay and fears they won't be. A depressed person often feels that wanting things has become too tiring. They can coexist — many people experience both simultaneously.</p>
+
+          <p><strong>Burnout vs Depression:</strong> Burnout is initially work-specific and caused by unsustainable demands without adequate rest. A person who is burned out from their job may feel perfectly fine on a holiday — the depletion is contextual. Depression follows you everywhere. The risk is that chronic burnout can develop into depression if unaddressed, which is why taking burnout seriously as a distinct condition matters — it's often more reversible if caught early.</p>
+
+          <div class="callout red"><strong>Important:</strong> All three can be serious. Burnout is not "just tiredness" and depression is not "just sadness." If symptoms are persistent, interfere significantly with daily functioning, or include thoughts of self-harm, professional support — a counsellor, psychologist, or psychiatrist — is the appropriate response, not just self-management techniques.</div>
+
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /s4 -->
+
+  <!-- ═══════ UNIT 5 ═══════ -->
+  <div class="section-panel" id="s5">
+    <div class="tabs" role="tablist">
+      <button class="tab-btn active" onclick="showTab('s5',0)">Q8 · Human Needs &amp; Tech Design</button>
+      <button class="tab-btn"        onclick="showTab('s5',1)">Q9 · Social Media &amp; Mental Health</button>
+      <button class="tab-btn"        onclick="showTab('s5',2)">Q10 · Communication Skills</button>
+      <button class="tab-btn"        onclick="showTab('s5',3)">Q11 · Career Planning</button>
+      <button class="tab-btn"        onclick="showTab('s5',4)">Q12 · Personal Development Plan</button>
+    </div>
+
+    <!-- Q8 -->
+    <div class="tab-content active" id="s5-tab-0">
+      <div class="question-block">
+        <h2 class="q-title">Q8. Explain how understanding people's needs influences the design of technology.</h2>
+        <div class="answer-body">
+
+          <p>Technology that doesn't fit the way people actually think and behave tends to fail — not because it doesn't work technically, but because people don't use it, or misuse it, or find it more frustrating than helpful. Understanding human needs is therefore not a soft add-on to technology design; it is a core engineering requirement. The field that formalises this understanding is <strong>Human-Centred Design (HCD)</strong>.</p>
+
+          <h3>Maslow's Hierarchy as a Design Framework</h3>
+          <p>Maslow's hierarchy of needs — physiological, safety, belonging, esteem, self-actualisation — provides a useful lens for thinking about what technology should address. Different technologies target different levels of this hierarchy, and the best technologies address multiple levels simultaneously.</p>
+          <p>A food delivery app addresses physiological needs (hunger) but also convenience and esteem (the feeling of having options and control). A social media platform addresses belonging needs. A productivity tool addresses esteem and self-actualisation (achievement, growth). When technology addresses real needs at the right level, people adopt it naturally. When it tries to create artificial needs, it faces adoption resistance.</p>
+
+          <h3>Practical Influence on Design</h3>
+          <p><strong>Accessibility:</strong> Understanding that people have different physical and cognitive abilities leads to inclusive design — larger text options, screen reader compatibility, colour contrast standards, voice interfaces. These aren't features added as an afterthought; they're requirements that emerge from truly understanding the full range of users.</p>
+          <p><strong>User Interface Simplicity:</strong> Understanding cognitive load — the mental effort required to use a system — leads to cleaner, more intuitive interfaces. When designers understand that users have limited working memory and are usually in a hurry, they eliminate unnecessary steps, use familiar conventions, and reduce the number of decisions the user has to make.</p>
+          <p><strong>Error Design:</strong> Understanding that humans make mistakes leads to forgiving systems — confirmation dialogs before irreversible actions, undo functionality, clear error messages that explain what went wrong and how to fix it. Systems designed without this understanding punish users for normal human behaviour.</p>
+          <p><strong>Emotional Needs:</strong> Notification design is a case study in how ignoring emotional needs creates harm. Early mobile apps maximised notification volume to increase engagement. Understanding that unpredictable interruptions cause stress and that constant connectivity harms well-being has led to features like Do Not Disturb modes, notification summaries, and screen time tools.</p>
+
+          <div class="callout green">
+            <strong>Example:</strong> WhatsApp's voice message feature emerged from understanding that typing long messages is burdensome for many users, particularly those with low literacy or those using the app in a second language. Understanding the real need (communicate quickly and naturally) produced a better solution than optimising around the assumed need (type text messages faster).
+          </div>
+
+          <h3>Human-Centred Design Process</h3>
+          <p>HCD follows an iterative cycle: <strong>Empathise</strong> (research real users — interviews, observations, surveys), <strong>Define</strong> (articulate the actual problem from the user's perspective), <strong>Ideate</strong> (generate solutions), <strong>Prototype</strong> (build lightweight versions), <strong>Test</strong> (observe real users using the prototype). This cycle repeats until the design genuinely serves the need. The crucial point is that the process starts with people, not features.</p>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Q9 -->
+    <div class="tab-content" id="s5-tab-1">
+      <div class="question-block">
+        <h2 class="q-title">Q9. Analyze the positive and negative effects of social media on mental health.</h2>
+        <div class="answer-body">
+
+          <p>Social media is arguably the most significant change to human social behaviour in the last century, and its effects on mental health are correspondingly significant and contested. The honest analysis is that it is neither purely harmful nor purely beneficial — it amplifies and changes social dynamics in ways that help some people in some contexts and harm others in others.</p>
+
+          <h3>Positive Effects</h3>
+          <p><strong>Social connection and belonging:</strong> For people who are geographically isolated, socially marginalised, or dealing with rare conditions, social media provides access to communities they couldn't find locally. This is genuinely valuable — belonging is a fundamental human need, and social media makes it accessible across distance. Studies of LGBTQ+ youth in unsupportive environments, for example, consistently find that online community access is a significant protective factor for mental health.</p>
+          <p><strong>Information and mental health awareness:</strong> Social media has dramatically destigmatised conversations about mental health. Discussions about therapy, anxiety, depression, and burnout that were once private or stigmatised are now public, normalised, and often helpful. People recognise their own experiences in what others share, seek help earlier, and feel less alone.</p>
+          <p><strong>Creative expression and identity formation:</strong> Particularly for young people, social media platforms provide space to develop and express identity, receive feedback on creative work, and find communities around niche interests. This can be a genuine source of self-esteem and purpose.</p>
+
+          <h3>Negative Effects</h3>
+          <p><strong>Social comparison:</strong> Social media presents a curated version of other people's lives — the highlight reel without the behind-the-scenes. Constant exposure to others' apparent success, attractiveness, and happiness creates upward social comparison, which is reliably associated with lower self-esteem and higher rates of depression. This effect is stronger for visual platforms and stronger among adolescents whose identity is still forming.</p>
+          <p><strong>Addictive design and attention fragmentation:</strong> Social media platforms are engineered to maximise time-on-platform through variable reward mechanisms — the same psychological architecture as slot machines. The infinite scroll, the unpredictable timing of likes and notifications, and the algorithmically-curated feed are all designed to keep users engaged past the point of enjoyment. This creates compulsive checking behaviour and undermines the sustained attention required for deep work and genuine relaxation.</p>
+          <p><strong>Cyberbullying and harassment:</strong> The combination of anonymity, distance, and audience creates conditions where harassment is easier and more severe than in person. For young people particularly, social media harassment follows them home — there is no spatial escape from it the way there is from in-person bullying.</p>
+          <p><strong>Sleep disruption:</strong> Screen use before bed — particularly the emotionally activating content social media delivers — disrupts sleep. Blue light suppresses melatonin; emotionally activating content increases cortisol. Both are well-established mechanisms for degraded sleep quality, with downstream effects on every dimension of mental health.</p>
+
+          <div class="callout yellow">
+            <strong>Balanced conclusion:</strong> The question is not whether to use social media but how. Intentional, bounded use — specific times, specific purposes, following accounts that genuinely add value rather than trigger comparison — is associated with neutral to positive mental health effects. Passive, compulsive, late-night scrolling is consistently associated with negative ones.
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Q10 -->
+    <div class="tab-content" id="s5-tab-2">
+      <div class="question-block">
+        <h2 class="q-title">Q10. Apply effective communication skills to solve a misunderstanding in the workplace.</h2>
+        <div class="answer-body">
+
+          <p>Workplace misunderstandings are inevitable — people bring different assumptions, communication styles, and contexts to every interaction. What separates functional workplaces from dysfunctional ones is not the absence of misunderstandings but the presence of skills and processes to resolve them before they escalate into conflict or damaged relationships.</p>
+
+          <h3>Why Misunderstandings Happen</h3>
+          <p>Misunderstandings typically arise from one of four sources: ambiguous language (words that mean different things to different people), missing context (one person doesn't have information the other assumed they had), different assumptions (both parties think they agreed on something but had different mental models), or emotional interference (stress, fatigue, or previous conflict distorts how messages are sent and received).</p>
+
+          <h3>Scenario: A Worked Example</h3>
+          <p>A manager tells a team member to "get the report done soon." The team member submits it at end of day Friday. The manager expected it by noon. Both are frustrated — the manager thinks the team member is careless, the team member thinks the manager is being unreasonable. This is a classic ambiguous language misunderstanding.</p>
+
+          <h3>Communication Skills for Resolution</h3>
+          <p><strong>Step 1 — Choose the right moment and medium.</strong> Addressing a misunderstanding when both parties are stressed or in front of others makes it worse. A private, calm conversation — in person or by video, not text, where tone is lost — is the right setting.</p>
+          <p><strong>Step 2 — Use "I" statements, not "you" statements.</strong> "You were unclear about the deadline" triggers defensiveness. "I understood 'soon' to mean end of day — can you help me understand what you meant?" is curious rather than accusatory. The goal is to understand, not to establish who was wrong.</p>
+          <p><strong>Step 3 — Active listening.</strong> This means listening to understand rather than to respond. Let the other person finish. Paraphrase back: "So what you're saying is you needed it by noon because the client call was at 1 PM — is that right?" Paraphrasing demonstrates that you've heard accurately and gives the other person a chance to correct any remaining misunderstanding.</p>
+          <p><strong>Step 4 — Identify the root cause together.</strong> Once both perspectives are on the table, collaboratively identify what actually went wrong. In the example above, the root cause is that "soon" was not defined, and there was an implicit assumption that was never made explicit.</p>
+          <p><strong>Step 5 — Agree on a fix for the future.</strong> Resolution isn't just about settling the current misunderstanding — it's about preventing recurrence. In this case: "Going forward, let's agree that any deadline should be specified as a date and time, not just a relative word."</p>
+
+          <div class="callout green">
+            <strong>Key principle:</strong> Effective communication in conflict is not about being right — it's about restoring shared understanding. The person who is willing to ask "what did you mean?" rather than assume the worst is almost always the one who resolves it.
+          </div>
+
+          <h3>Broader Communication Skills Applicable Here</h3>
+          <p>Empathy — genuinely trying to understand the other person's perspective before defending your own. Clarity — being specific and concrete, avoiding vague language that requires interpretation. Feedback receptiveness — the ability to hear criticism without shutting down. These skills aren't innate; they are learnable through deliberate practice and reflection.</p>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Q11 -->
+    <div class="tab-content" id="s5-tab-3">
+      <div class="question-block">
+        <h2 class="q-title">Q11. Evaluate different career-planning strategies and justify the best strategy for an engineering student.</h2>
+        <div class="answer-body">
+
+          <p>Career planning for an engineering student is not a single decision made once — it is an ongoing process of gathering information, building skills, testing assumptions, and adjusting direction. The landscape is also genuinely complex: the options span core engineering roles, research, product, entrepreneurship, and interdisciplinary fields that didn't exist five years ago. Different strategies suit different personalities, risk tolerances, and contexts.</p>
+
+          <h3>Strategy 1: Traditional Structured Planning</h3>
+          <p>This approach involves setting a long-term career goal (e.g., AI researcher at a top company), mapping the qualifications and experiences needed to get there, and working backward to identify what to do in each year of the degree. It provides clarity and focus, and works well for goals with clear prerequisites (research careers require publications and postgraduate study; government roles require specific certifications).</p>
+          <p><strong>Limitation:</strong> It requires knowing what you want to do early in your degree, which most students don't. It also doesn't adapt well to a fast-changing field like AI/ML where the most interesting roles five years from now don't exist yet.</p>
+
+          <h3>Strategy 2: Exploration and Optionality</h3>
+          <p>This approach treats the degree years as a time to deliberately explore different options — internships in different domains, side projects in different areas, courses outside the core curriculum — before committing to a direction. The goal is to accumulate information about what you actually enjoy and are good at, rather than optimising prematurely for a goal that might not fit you.</p>
+          <p><strong>Strength:</strong> Prevents the common trap of pursuing a prestigious-sounding career that turns out to be deeply unsatisfying. Research consistently shows that enjoyment and meaning in work are more predictive of long-term success than prestige or salary.</p>
+
+          <h3>Strategy 3: Skill-First Planning</h3>
+          <p>Rather than targeting a specific role or company, this strategy focuses on becoming genuinely excellent at a set of high-value, transferable skills — in the case of an AI/ML student, this might mean deep competence in ML fundamentals, strong software engineering, and the ability to communicate technical ideas to non-technical audiences. The bet is that excellent skills open doors that specific goal-targeting would miss.</p>
+
+          <h3>Best Strategy for an Engineering Student: Hybrid Approach</h3>
+          <p>The most effective strategy combines exploration in the early years with increasing focus as the degree progresses. In the first two years, the priority is building strong fundamentals AND exploring options through projects and internships. By the final year, the student should have enough information to make a more directed choice — and the skills to execute on it.</p>
+          <p>Concretely: build deep technical skills (Strategy 3) while using projects and internships to explore directions (Strategy 2), then in the final year apply structured planning (Strategy 1) with the self-knowledge you've accumulated.</p>
+
+          <div class="callout green">
+            <strong>Justification:</strong> Engineering careers are long and the field evolves rapidly. The student who graduates knowing themselves well — what they enjoy, what they're good at, where they add value — will outperform the student who optimised for a specific goal at 18 without testing that goal against reality. The hybrid approach provides direction without prematurely foreclosing options.
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Q12 -->
+    <div class="tab-content" id="s5-tab-4">
+      <div class="question-block">
+        <h2 class="q-title">Q12. Design a personal development plan that includes creative thinking, innovation, and lifelong learning.</h2>
+        <div class="answer-body">
+
+          <p>A personal development plan (PDP) is a structured commitment to your own growth across multiple dimensions — not just professional skills, but the cognitive and personal qualities that make those skills more powerful. For an engineering student in a rapidly changing field, the three qualities the question identifies — creative thinking, innovation, and lifelong learning — are arguably more important than any specific technical skill, because they are what allow you to keep acquiring and applying new skills throughout a career that will span 40+ years of technological change.</p>
+
+          <h3>Component 1: Creative Thinking</h3>
+          <p>Creative thinking is the ability to generate ideas that are novel, useful, and non-obvious. It is not a fixed talent — it is a skill that can be developed through specific practices.</p>
+          <p><strong>What to practice:</strong> Cross-domain exposure (deliberately reading outside your field — biology, history, philosophy — because creative insights often come from applying concepts from one domain to problems in another). Divergent thinking exercises (generating as many solutions as possible to a problem before evaluating any of them, which trains the mind to generate rather than immediately critique). Maintaining a personal idea journal — a low-stakes space to capture half-formed thoughts without judging them.</p>
+          <p><strong>In the PDP:</strong> Commit to one creative habit — a weekly journaling practice, a monthly deep read outside your field, or a side project with no defined outcome. Track it, not to measure productivity, but to notice patterns in what sparks your best ideas.</p>
+
+          <h3>Component 2: Innovation</h3>
+          <p>Innovation is creativity applied to real problems — it is not just having ideas but taking them from concept to something that actually works and creates value. The mindset it requires is different from academic learning: it involves tolerating ambiguity, accepting failure as data, and focusing relentlessly on the user or problem rather than the elegance of the solution.</p>
+          <p><strong>What to practice:</strong> Project-based work where you're solving real, open-ended problems (hackathons, open-source contributions, building things for actual users). Developing a habit of asking "why does this work the way it does and does it have to?" about systems you encounter. Learning from failure explicitly — not just moving on but reflecting on what the failure revealed.</p>
+          <p><strong>In the PDP:</strong> Complete at least one self-directed project per semester with a real user or real problem, not a course assignment. Treat it as a laboratory for innovation practice.</p>
+
+          <h3>Component 3: Lifelong Learning</h3>
+          <p>Lifelong learning is the commitment to continued skill and knowledge acquisition after formal education ends. In technology fields, this isn't optional — the half-life of specific technical skills is shrinking, and the ability to learn new things continuously is the meta-skill that all others depend on.</p>
+          <p><strong>What to practice:</strong> Building a personal learning system — a consistent method for identifying what to learn next, consuming that learning (courses, papers, books, doing), and retaining it (notes, practice, teaching others). Staying connected to the research frontier in your field through newsletters, papers, or communities. Building the habit of being a beginner — regularly doing something you're not good at yet, which trains the emotional tolerance for not-knowing that learning requires.</p>
+
+          <table>
+            <tr><th>Dimension</th><th>Short-term (this year)</th><th>Long-term (5 years)</th></tr>
+            <tr><td>Creative Thinking</td><td>Start weekly idea journal; one cross-domain book per month</td><td>Have a recognisable creative practice that feeds into professional work</td></tr>
+            <tr><td>Innovation</td><td>Complete one real-world side project; participate in one hackathon</td><td>Have shipped something that real people use</td></tr>
+            <tr><td>Lifelong Learning</td><td>Build a note-taking and review system; follow 3 research blogs</td><td>Have a sustainable self-directed learning rhythm that continues post-graduation</td></tr>
+          </table>
+
+          <div class="callout">
+            <strong>The through-line:</strong> All three qualities share a common foundation — intellectual curiosity and the willingness to engage with what you don't yet know. A personal development plan that cultivates this as a core identity trait ("I am someone who stays curious and keeps growing") will outlast any specific skill set or career plan.
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /s5 -->
+
+</div><!-- /page-wrapper -->
+
+<script>
+  function showSection(id, btn) {
+    document.querySelectorAll('.section-panel').forEach(p => p.classList.remove('active'));
+    document.querySelectorAll('.section-btn').forEach(b => b.classList.remove('active'));
+    document.getElementById(id).classList.add('active');
+    btn.classList.add('active');
+  }
+  function showTab(section, i) {
+    const panel = document.getElementById(section);
+    panel.querySelectorAll('.tab-content').forEach((el, idx) => el.classList.toggle('active', idx === i));
+    panel.querySelectorAll('.tab-btn').forEach((btn, idx) => btn.classList.toggle('active', idx === i));
+  }
+</script>
+</body>
+</html>
